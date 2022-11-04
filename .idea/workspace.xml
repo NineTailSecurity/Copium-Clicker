@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fbe6aec-3e8e-4d99-a39a-323a6c14e62f" name="Changes" comment="test #2">
+    <list default="true" id="1fbe6aec-3e8e-4d99-a39a-323a6c14e62f" name="Changes" comment="test #3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -69,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667452292875</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test #3">
+      <created>1667536386463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667536386464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test #2" />
+    <MESSAGE value="test #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="test #3" />
   </component>
 </project>
