@@ -1,5 +1,6 @@
 import javafx.application.Application;
-import javafx.event.ActionEvent;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
@@ -27,16 +28,24 @@ public class Main extends Application {
         // stage
         primaryStage.setTitle("WELCOME TO COPIUM 1.0!");
         Group root = new Group();
-        Scene scene = new Scene(root, 300, 250);
+        Scene scene = new Scene(root, 600, 600, Color.GREY);
 
         // label
         countLabel.setText(String.valueOf(count));
         countLabel.setTextFill(Color.BLUE);
         countLabel.setStyle("-fx-font-size: 4em;");
 
+        //Creating a graphic (image)
+        Image img = new Image("C:/Users/Logan/IdeaProjects/Pantry-Pet/Images/copium.png");
+        ImageView view = new ImageView(img);
+        view.setFitHeight(120);
+        view.setPreserveRatio(true);
+
         //button create and config
         button = new Button();
-        button.setText("CLICK ME DUMMY! 2.0");
+        button.setPrefSize(160, 160);
+        button.setGraphic(view);
+        //button.setText("CLICK ME DUMMY! 2.0");
         button.setOnMousePressed(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
@@ -51,7 +60,7 @@ public class Main extends Application {
         vb.setAlignment(Pos.CENTER);
         vb.setPrefWidth(scene.getWidth());
         vb.setLayoutY(30);
-        vb.getChildren().addAll(button, countLabel);
+        vb.getChildren().addAll(countLabel, button);
         root.getChildren().add(vb);
 
         primaryStage.setScene(scene);
