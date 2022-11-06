@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fbe6aec-3e8e-4d99-a39a-323a6c14e62f" name="Changes" comment="push #1">
-      <change afterPath="$PROJECT_DIR$/Images/copium.png" afterDir="false" />
+    <list default="true" id="1fbe6aec-3e8e-4d99-a39a-323a6c14e62f" name="Changes" comment="push #2 &#10;- add image&#10;- adjust button&#10;- adjust background">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -89,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667537223970</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="push #2 &#10;- add image&#10;- adjust button&#10;- adjust background">
+      <created>1667586061471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667586061471</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +122,7 @@
     <MESSAGE value="test #2" />
     <MESSAGE value="test #3" />
     <MESSAGE value="push #1" />
-    <option name="LAST_COMMIT_MESSAGE" value="push #1" />
+    <MESSAGE value="push #2 &#10;- add image&#10;- adjust button&#10;- adjust background" />
+    <option name="LAST_COMMIT_MESSAGE" value="push #2 &#10;- add image&#10;- adjust button&#10;- adjust background" />
   </component>
 </project>
